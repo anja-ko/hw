@@ -1,0 +1,121 @@
+body {
+  padding: 10px;
+  margin: 10px;
+}
+
+header {
+  background: #7F7F7F;
+  background-image: url('../imgs/flywheel.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 200px;
+  padding: 10px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  color: #75890c;
+  background: #ffffff60;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+  padding: 1% 5%;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: #75890c;
+  background: #ffffff;
+}
+
+.active {
+  background-color: #75890c;
+  color: #ffffff;
+}
+
+h1 {
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.left {
+  width: 20%;
+  background-color: #75890c;
+  text-align: center;
+  display: block;
+  float: left;
+}
+
+.left img {
+  width: 80%;
+  border: 2px solid;
+  margin: 20px 10px;
+}
+
+.right {
+  width: 75%;
+  display: block;
+  float: left;
+  margin: 0 5px;
+}
+
+.right table {
+  font-family: Arial;
+  border-collapse: separate;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  padding: 10px 5px;
+  color: #80827f;
+  text-align: center;
+  font-weight: bold;
+}
+
+th {
+  color: #fff;
+  padding: 2px 20px;
+  height: 40px;
+  background: #a4b357;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #a4b357 0%, #75890c 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #a4b357 0%, #75890c 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #a4b357 0%, #75890c 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a4b357', endColorstr='#75890c', GradientType=0);
+  /* IE6-9 */
+  -webkit-width: 4px 4px 0 0;
+  -moz-width: 4px 4px 0 0;
+  -ms-width: 4px 4px 0 0;
+  -o-width: 4px 4px 0 0;
+  width: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+  border: 1px solid #75890c;
+}
+
+th:first-child {
+  text-align: left;
+  padding: 2px 5px;
+}
+
+td:first-child {
+  text-align: left;
+}
+
+tr {
+  background: #eef7ea;
+}
+
+.right tr:hover {
+  background-color: #75890c50;
+}
